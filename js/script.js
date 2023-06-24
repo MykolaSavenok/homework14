@@ -2,7 +2,7 @@
 
 function getImage() {
    const random = Math.floor(Math.random() * 4) + 1;
-   const imageFolder = '/image/'
+   const imageFolder = 'image/'
    const imageExtension = '.png';
    const imagePath = imageFolder + random + imageExtension;
    return imagePath;
